@@ -1,0 +1,20 @@
+﻿helloc.obj : error LNK2005: _main already defined in hello.obj
+hellop.obj : error LNK2005: _HelloProc already defined in hello.obj
+hellop.obj : error LNK2005: _Shutdown already defined in hello.obj
+hellos.obj : error LNK2005: _MIDL_user_allocate@4 already defined in helloc.obj
+hellos.obj : error LNK2005: _MIDL_user_free@4 already defined in helloc.obj
+hellos.obj : error LNK2005: _main already defined in hello.obj
+hello.obj : error LNK2019: unresolved external symbol __imp__RpcServerUnregisterIf@12 referenced in function _Shutdown
+hellop.obj : error LNK2001: unresolved external symbol __imp__RpcServerUnregisterIf@12
+hello.obj : error LNK2019: unresolved external symbol __imp__RpcMgmtStopServerListening@4 referenced in function _Shutdown
+hellop.obj : error LNK2001: unresolved external symbol __imp__RpcMgmtStopServerListening@4
+helloc.obj : error LNK2019: unresolved external symbol __imp__RpcBindingFree@4 referenced in function _main
+helloc.obj : error LNK2019: unresolved external symbol __imp__RpcBindingFromStringBindingW@8 referenced in function _main
+helloc.obj : error LNK2019: unresolved external symbol __imp__RpcStringBindingComposeW@24 referenced in function _main
+helloc.obj : error LNK2019: unresolved external symbol __imp__RpcStringFreeW@4 referenced in function _main
+helloc.obj : error LNK2001: unresolved external symbol _hello_IfHandle
+hellos.obj : error LNK2001: unresolved external symbol _hello_IfHandle
+hellos.obj : error LNK2019: unresolved external symbol __imp__RpcServerListen@12 referenced in function _main
+hellos.obj : error LNK2019: unresolved external symbol __imp__RpcServerRegisterIf@12 referenced in function _main
+hellos.obj : error LNK2019: unresolved external symbol __imp__RpcServerUseProtseqEpW@16 referenced in function _main
+D:\C++ Code\DBS2\Debug\DBS2.exe : fatal error LNK1120: 10 unresolved externals

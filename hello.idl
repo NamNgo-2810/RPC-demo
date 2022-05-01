@@ -1,0 +1,8 @@
+[
+uuid(36c49684-18f8-4d7b-a43e-e0d641d62d8e),
+version(1.0)
+]
+interface hello
+{
+	
+}
